@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-  DEVICE: r9q
-  DT_LINK: https://github.com/klabit87/android_device_samsung_r9q
-  DT_PATH: device/samsung/r9q
+  DEVICE: KG8
+  DT_LINK: https://github.com/twrpdtgen/android_device_tecno_TECNO-KG8
+  DT_PATH: device/Tecno/kg8
   TARGET: recoveryimage
   OUTPUT: recovery.img
 
@@ -69,6 +69,6 @@ jobs:
        - name: Save
          uses: actions/upload-artifact@v3
          with:
-            name: my-artifact
+            name: Twrp-11-By-Arif
             path: /home/runner/work/Recovery-Builder/Recovery-Builder/work/rec.zip
             retention-days: 5
