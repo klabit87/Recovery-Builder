@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-  DEVICE: r9q
-  DT_LINK: https://github.com/klabit87/android_device_samsung_r9q
-  DT_PATH: device/samsung/r9q
+  DEVICE: onclite
+  DT_LINK: https://github.com/KostyaJRZ/android_device_xiaomi_onclite-twrp
+  DT_PATH: device/xiaomi/onclite
   TARGET: recoveryimage
   OUTPUT: recovery.img
 
